@@ -26429,18 +26429,18 @@ cr.plugins_.vooxe = function(runtime)
 		};
 		this.vooxe["InitAds"] = function ()
 		{
-			var settings = {
-				gameId: self.properties[0],
-				userId: self.properties[1],
-				resumeGame: self.vooxe.onResumeGame,
-				pauseGame: self.vooxe.onPauseGame,
-				onInit: self.vooxe.onInit,
-				onError: self.vooxe.onError
-			};
-			(function(i,s,o,g,r,a,m){
-				i['GameDistribution']=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)};i[r].l=1*new Date();a=s.createElement(o);m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a, m);
-			})(window, document, 'script', '//html5.api.gamedistribution.com/libs/gd/api.js', 'gdApi');
-			gdApi(settings);
+			// var settings = {
+			// 	gameId: self.properties[0],
+			// 	userId: self.properties[1],
+			// 	resumeGame: self.vooxe.onResumeGame,
+			// 	pauseGame: self.vooxe.onPauseGame,
+			// 	onInit: self.vooxe.onInit,
+			// 	onError: self.vooxe.onError
+			// };
+			// (function(i,s,o,g,r,a,m){
+			// 	i['GameDistribution']=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)};i[r].l=1*new Date();a=s.createElement(o);m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a, m);
+			// })(window, document, 'script', '//html5.api.gamedistribution.com/libs/gd/api.js', 'gdApi');
+			// gdApi(settings);
 		}
 	};
 	function Cnds() {};
